@@ -5,7 +5,12 @@ export default {
       extend: {
         fontSize: {
           dynamic: "clamp(14px, 3vw, 16px)", 
+          small: '0.75rem',   
+          ten: '0.625rem',
         },
+        maxWidth: {
+            'content': '1000px',
+          },
         fontFamily: {
           sans: ['Nunito', 'sans-serif'], 
         },
