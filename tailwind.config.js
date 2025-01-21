@@ -4,7 +4,7 @@ export default {
     theme: {
       extend: {
         fontSize: {
-          dynamic: "clamp(14px, 4vw, 16px)", 
+          dynamic: "clamp(14px, 3vw, 16px)", 
         },
         fontFamily: {
           sans: ['Nunito', 'sans-serif'], 

@@ -8,12 +8,12 @@
   </head>
   <body class="bg-primary text-gray-800 font-sans">
     <!-- Screen 1 -->
-    <div id="screen-1" class="h-screen flex flex-col items-center text-dynamic">
+    <div id="screen-1" class="h-screen flex flex-col items-center">
       <header
-        class="w-full max-w-[1000px] p-2 text-white text-center text-lg flex justify-between items-center"
+        class="w-full max-w-[1000px] pt-2 pr-2 pl-1 text-white text-center text-lg flex justify-between items-center"
       >
         <nav
-          class="top-0 left-0 right-0 p-2 cursor-pointer transform transition-transform duration-150 hover:scale-110"
+          class="top-0 left-0 right-0 p-2 cursor-pointer transform transition-transform duration-150"
         >
           <svg
             class="fill-current stroke-[#0550FF] hover:stroke-green-700 hover:fill-green-400"
@@ -46,9 +46,7 @@
           <img src="/logo.png" alt="logo" />
         </div>
 
-        <div
-          class="cursor-pointer transform transition-transform duration-150 hover:scale-110"
-        >
+        <div class="cursor-pointer transform transition-transform duration-150">
           <svg
             class="fill-[#0550FF] hover:fill-red-600"
             width="19"
@@ -64,14 +62,18 @@
           </svg>
         </div>
       </header>
-      <div class="pl-3 pr-2.5 pt-4 pb-4 text-dynamic"></div>
-      <main class="flex flex-col items-start justify-start gap-4 overflow-y-auto mb-[100px]">
+      <div class="pl-3 pr-2.5"></div>
+      <main
+        class="h-[82vh] flex flex-col items-start justify-start gap-2 overflow-y-auto mb-20 ml-2 mr-2"
+      >
         <div
           class="w-full bg-white flex justify-between items-center rounded-xl pr-2"
         >
-          <div class="pl-3 pr-2.5 pt-4 pb-4 text-dynamic">
-            <h1 class="text-darkBlue font-extra-extrabold">ООО ЗАПРАВКИН</h1>
-            <p class="text-slateGrey text-[10px]">ИНН 5905287782</p>
+          <div class="pl-3 pr-2.5 pt-4 pb-4">
+            <h1 class="text-darkBlue font-extra-extrabold mb-1 text-base">
+              ООО ЗАПРАВКИН
+            </h1>
+            <p class="text-slateGrey text-[10px] mb-1">ИНН 5905287782</p>
             <p class="text-slateGrey text-[12px]">
               Аккаунт создан 17 февраля 2022 года
             </p>
@@ -96,8 +98,8 @@
         </div>
         <div class="w-full bg-white text-darkBlue rounded-xl">
           <ul class="pl-3 pr-2.5 rounded-xl">
-            <li class="border-b flex justify-between items-center pt-4 pb-4">
-              <div class="flex flex-col gap-1 text-slateGrey">
+            <li class="border-b flex justify-between items-center pt-2 pb-2">
+              <div class="flex flex-col gap-1 text-slateGrey text-dynamic">
                 Почта
                 <p class="text-darkBlue font-bold">info@za-pravkin.ru</p>
               </div>
@@ -119,7 +121,7 @@
                 </svg>
               </button>
             </li>
-            <li class="border-b flex justify-between items-center pt-4 pb-4">
+            <li class="border-b flex justify-between items-center pt-4 pb-3">
               <div class="flex flex-col gap-1 text-slateGrey">
                 Телефон
                 <p class="text-darkBlue font-bold">+7 342 270 03 55</p>
@@ -142,7 +144,7 @@
                 </svg>
               </button>
             </li>
-            <li class="flex justify-between items-center pt-4 pb-4">
+            <li class="flex justify-between items-center pt-3 pb-3">
               <div class="flex flex-col gap-1 text-slateGrey">
                 Город
                 <p class="text-darkBlue font-bold">Пермский край, Пермь</p>
@@ -168,7 +170,7 @@
           </ul>
         </div>
         <div
-          class="w-full flex justify-between items-center bg-white text-darkBlue pl-3 pr-2.5 pt-4 pb-4 rounded-xl"
+          class="w-full flex justify-between items-center bg-white text-darkBlue pl-3 pr-2.5 pt-4 pb-2 rounded-xl"
         >
           <label class="flex flex-col gap-1 text-slateGrey"
             >Пароль<input
@@ -194,7 +196,6 @@
             </svg>
           </button>
         </div>
-        
 
         <div
           class="w-full rounded-xl shadow pt-4 pb-4 pl-3 pr-3 cursor-pointer bg-none border border-brightBlue"
@@ -213,7 +214,7 @@
           class="flex justify-between items-center pt-4 pb-4 pl-3 pr-3 m-2 bg-white rounded-xl"
         >
           <div
-            class="text-brightBlue flex cursor-pointer pr-4 pl-4 transform transition-transform duration-150 hover:text-secondary hover:scale-110 flex-col gap-1 items-center group"
+            class="text-brightBlue flex cursor-pointer pr-4 pl-4 hover:text-secondary flex-col gap-1 items-center group"
           >
             <div>
               <svg
@@ -236,7 +237,7 @@
           </div>
 
           <div
-            class="text-brightBlue flex cursor-pointer pr-4 pl-4 transform transition-transform duration-150 hover:text-secondary hover:scale-110 flex-col gap-1 items-center group"
+            class="text-brightBlue flex cursor-pointer pr-4 pl-4 hover:text-secondary flex-col gap-1 items-center group"
           >
             <div>
               <svg
@@ -258,7 +259,7 @@
             <p>Сервисы</p>
           </div>
           <div
-            class="text-brightBlue flex cursor-pointer pr-4 pl-4 transform transition-transform duration-150 hover:text-secondary hover:scale-110 flex-col gap-1 items-center group"
+            class="text-brightBlue flex cursor-pointer pr-4 pl-4 hover:text-secondary flex-col gap-1 items-center group"
           >
             <div>
               <svg
@@ -280,7 +281,7 @@
             <p>Менеджер</p>
           </div>
           <div
-            class="text-brightBlue flex cursor-pointer pr-4 pl-4 transform transition-transform duration-150 hover:text-secondary hover:scale-110 flex-col gap-1 items-center group"
+            class="text-brightBlue flex cursor-pointer pr-4 pl-4 hover:text-secondary flex-col gap-1 items-center group"
           >
             <div>
               <svg
@@ -306,19 +307,17 @@
     </div>
 
     <!-- Screen 2 -->
-    <div
-      id="screen-2"
-      class="hidden h-screen flex flex-col items-center text-dynamic"
-    >
+    <div id="screen-2" class="hidden h-screen flex flex-col items-center">
       <header></header>
       <main
         class="w-full max-w-[1000px] flex flex-col items-start justify-start gap-4"
       >
         <div
-          class="w-full h-[670px] m-2 bg-white flex flex-col gap-4 overflow-y-auto rounded-2xl"
+          class="m-2 h-[82vh] bg-white flex flex-col gap-3.5 overflow-y-auto rounded-2xl"
         >
-          <button class="left-4 p-4" onclick="showScreen(1)">
-            <svg class="hover:stroke-green stroke-black stroke-width-1.5"
+          <button class="left-4 pt-4 pl-4" onclick="showScreen(1)">
+            <svg
+              class="hover:stroke-green stroke-black stroke-width-1.5"
               width="24"
               height="24"
               viewBox="0 0 24 24"
@@ -327,7 +326,6 @@
             >
               <path
                 d="M10.5 19.5L3 12M3 12L10.5 4.5M3 12H21"
-                
                 stroke-width="1.5"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -335,31 +333,38 @@
             </svg>
           </button>
           <div
-            class="bg-secondary rounded-2xl ml-3 mr-3 p-4 cursor-pointer"
+            class="bg-secondary rounded-2xl ml-2 mr-2 p-4 cursor-pointer"
             onclick="showScreen(3)"
           >
-            <h3 class="text-dynamic text-white font-semibold">
+            <h3 class="text-dynamic text-white mb-3">
               Заходите на Тапиго в один клик сразу c экрана вашего телефона. Мы
               подготовили понятную инструкцию, как это сделать быстро.
             </h3>
-            <div class="flex gap-2 items-center justify-center transform transition-transform duration-150 hover:scale-105">
-                <p class="text-teal text-center font-extra-extrabold">
-                  Мне интересно
-                </p>
-                <img src="./public/phone.png" alt="icon phone" />
-              </div>
-              
+            <div
+              class="flex gap-2 items-center justify-center transform transition-transform duration-150 hover:scale-105"
+            >
+              <p
+                class="text-dynamic text-teal text-center font-extra-extrabold"
+              >
+                Мне интересно
+              </p>
+              <img src="./public/phone.png" alt="icon phone" />
+            </div>
           </div>
           <div
-            class="bg-secondary rounded-2xl ml-3 mr-3 p-4 mb-4 cursor-pointer"
+            class="bg-secondary rounded-2xl ml-2 mr-2 p-4 mb-4 cursor-pointer"
             onclick="showScreen(3)"
           >
-            <h3 class="text-dynamic text-white font-semibold">
+            <h3 class="text-dynamic text-white mb-2">
               Добавьте менеджера для управления аккаунтом от имени компании. Это
               быстро, удобно и безопасно.
             </h3>
-            <div class="flex gap-2 items-center justify-center transform transition-transform duration-150 hover:scale-105">
-              <p class="text-teal text-center font-extra-extrabold">
+            <div
+              class="flex gap-2 items-center justify-center transform transition-transform duration-150 hover:scale-105"
+            >
+              <p
+                class="text-dynamic text-teal text-center font-extra-extrabold"
+              >
                 Так, поподробнее
               </p>
               <img src="./public/sound.png" alt="icon sound" />
@@ -367,51 +372,61 @@
           </div>
         </div>
       </main>
-      <footer
-        class="fixed bottom-0 left-0 right-0 bg-primary text-white text-center py-2"
-      ></footer>
+      <footer></footer>
     </div>
 
     <!-- Screen 3 -->
     <div id="screen-3" class="hidden h-screen flex flex-col items-center">
       <header></header>
-      <main class="">
+      <main>
         <div
-          class="w-full max-w-[1000px] h-[670px] m-2 bg-secondary text-white overflow-y-auto rounded-2xl"
+          class="m-2 h-[82vh] max-w-[1000px] bg-secondary text-white overflow-y-auto rounded-2xl"
         >
-          <button class="hover:scale-110 relative left-0 p-4" onclick="showScreen(2)">
-            <svg class="hover:stroke-green stroke-white stroke-width-1.5" width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M8.5 16.5L1 9M1 9L8.5 1.5M1 9H19" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-              
+          <button class="relative left-0 p-4" onclick="showScreen(2)">
+            <svg
+              class="hover:stroke-green stroke-white stroke-width-1.5"
+              width="20"
+              height="18"
+              viewBox="0 0 20 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.5 16.5L1 9M1 9L8.5 1.5M1 9H19"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </button>
 
-          <div class="p-6">
+          <div class="p-5 mt-[15vh] flex flex-col">
             <h1 class="text-2xl text-center mb-10">Менеджер для компании</h1>
-            <p class="mb-8">
+            <p class="mb-6 text-dynamic">
               Менеджер добавляет, размещает и редактирует материалы от имени
               вашей компании. Это позволяет разным сотрудникам работать во всех
               сервисах Тапиго от имени одной компании.
             </p>
-            <p class="mb-8">
+            <p class="mb-9 text-dynamic">
               Отключить менеджера от сервисов вы можете в любое время.
             </p>
-            <p class="text-blue flex items-center justify-center transform transition-transform duration-150 hover:scale-105">
-              <button>Добавить менеджера</button
-              ><img src="./public/plus.png" alt="icon plus" />
-            </p>
+
+            <button class="text-blue text-base font-extra-extrabold flex items-center justify-center gap-1 ">
+              Добавить менеджера <img src="./public/plus.png" alt="icon plus" />
+            </button>
           </div>
         </div>
       </main>
     </div>
 
-    <script >
-        function showScreen(screenNumber) {
-    document.querySelectorAll("div[id^='screen-']").forEach((screen) => {
-      screen.classList.add("hidden");
-    });
-    document.getElementById(`screen-${screenNumber}`).classList.remove("hidden");
-  }
+    <script>
+      function showScreen(screenNumber) {
+        document.querySelectorAll("div[id^='screen-']").forEach((screen) => {
+          screen.classList.add("hidden");
+        });
+        document
+          .getElementById(`screen-${screenNumber}`)
+          .classList.remove("hidden");
+      }
     </script>
   </body>
 </html>
