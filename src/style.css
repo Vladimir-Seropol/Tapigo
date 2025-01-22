@@ -8,7 +8,7 @@
     body {
 
       @apply text-dynamic; 
-     
+    
     }
   }
   main::-webkit-scrollbar {

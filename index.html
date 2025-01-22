@@ -310,10 +310,10 @@
     <div id="screen-2" class="hidden h-screen flex flex-col items-center">
       <header></header>
       <main
-        class="w-full max-w-content flex flex-col items-start justify-start gap-4"
+        class="w-full max-w-content  flex flex-col items-start justify-start gap-4"
       >
         <div
-          class="m-2 h-[82vh] bg-white flex flex-col gap-3.5 overflow-y-auto rounded-2xl"
+          class="m-2 h-[98vh] bg-white flex flex-col gap-3.5 overflow-y-auto rounded-2xl"
         >
           <button class="left-4 pt-4 pl-4" onclick="showScreen(1)">
             <svg
@@ -378,11 +378,11 @@
     <!-- Screen 3 -->
     <div id="screen-3" class="hidden h-screen flex flex-col items-center">
       <header></header>
-      <main>
+      <main >
         <div
-          class="m-2 h-[82vh] max-w-content bg-secondary text-white overflow-y-auto rounded-2xl"
+          class="flex flex-col justify-center m-2 h-[98vh] max-w-content bg-secondary text-white overflow-y-auto rounded-2xl"
         >
-          <button class="relative left-0 p-4" onclick="showScreen(2)">
+          <button class="absolute left-2 top-3 p-4" onclick="showScreen(2)">
             <svg
               class="hover:stroke-green stroke-white stroke-width-1.5"
               width="20"
@@ -399,7 +399,7 @@
             </svg>
           </button>
 
-          <div class="p-5 mt-[15vh] flex flex-col">
+          <div class="p-5  flex flex-col">
             <h1 class="text-2xl text-center mb-10">Менеджер для компании</h1>
             <p class="mb-6 text-dynamic">
               Менеджер добавляет, размещает и редактирует материалы от имени
